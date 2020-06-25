@@ -1,0 +1,10 @@
+  a = int(a)
+    b = int(b)
+    p = (a+b)*10
+    c = int(p / 2)
+    answer = ''
+    for i in str(c):
+        i = int(i)
+        i = i % 2
+        answer += str(i)
+    print(answer)
